@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |spec|
-  spec.add_dependency    'delayed_job', '=> 3.0'
+  spec.add_dependency    'delayed_job', '>= 3.0'
   spec.add_dependency    'mongoid', '>= 3.0'
   spec.authors         = ["Chris Gaffney", "Brandon Keepers", "Erik Michaels-Ober"]
   spec.email           = ['chris@collectiveidea.com', 'brandon@opensoul.com', 'sferik@gmail.com']
